@@ -1,7 +1,7 @@
-pikachoo
+<h1>Pikachoo</h1>
 ========
 
-The Online Gift Store - Pikachoo
+<h2>The Online Gift Store - Pikachoo</h2>
 
 Pikachoo is a Startup Comapny opening doors to Private Testers on 2nd March 2014. 
 
