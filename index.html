@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" type="text/css" href="countdownstyle.css">
+	<!-- STYLESHEETS : end -->
+	
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.knob.js"></script>
+	<script src="js/jquery.ccountdown.js"></script>
+	<script src="js/init.js"></script>
+	<!--[if lte IE 7]><script src="css/lte-ie7.js"></script><![endif]-->
+	</head>
+	<body class=" indexpage">
+		<div id="top" class="container">
+			<div id="wrapper">
+				<div id="profile">
+					<div class="profile-inner">
+					</div>
+				</div>
+				<!-- DESCRIPTION : end -->
+				
+				<div class="core">
+					
+					<div class="row">
+						<div class="row">
+							<div class="span8" style="padding-top: 26px;">
+								<div class="ccounter1">
+									<table cellspacing="3" cellpadding="5">
+									<tr>	
+										<td><input class="knob days" data-readOnly="true" data-width="150" data-displayPrevious=true data-fgColor="#fff" data-skin="tron" data-thickness=".2" data-min="0" data-max="365" value="75"></td>
+										<td><input class="knob hour" data-readOnly="true" data-width="150" data-min="0" data-max="24" data-displayPrevious=true data-fgColor="#fff" data-skin="tron" data-thickness=".2" value="75"></td><td>
+										<input class="knob minute" data-readOnly="true" data-width="150" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#fff" data-skin="tron" data-thickness=".2" value="75"></td><td>
+										<input class="knob second" data-readOnly="true" data-width="150" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#fff" data-skin="tron" data-thickness=".2" value="75"></td>
+									</tr>
+									<tr>
+										<td class="highlight">Days</td>
+										<td class="highlight">Hours</td>
+										<td class="highlight">Minutes</td>
+										<td class="highlight">Seconds</td>
+									</tr>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			
+		</div>
+		
+		<script>
+			//enter the count down date using the format year, month, day, time:time
+			$(".ccounter1").ccountdown(2014,3,14,'18:00');
+		</script>
+	</body>
+</html>

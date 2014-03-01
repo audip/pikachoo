@@ -1,0 +1,17 @@
+.highlight{
+	font-size: 40px;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #000;
+}
+body{
+	background-color: #e74c3c;
+	font-family: 'Vampiro One', cursive;
+}
+table{
+	text-align:center;
+	color:white;
+	text-transform:capitalize;
+	vertical-align:middle;
+	margin:auto;
+	width: auto;
+}
