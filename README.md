@@ -1,5 +1,4 @@
 <h1>Pikachoo</h1>
-========
 
 <h2>The Online Gift Store - Pikachoo</h2>
 
