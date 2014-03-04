@@ -1,0 +1,38 @@
+/**
+@media (min-width: 1200px) {
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row:after {
+    clear: both;
+  }**/
+.widget Categories
+{	
+	float: left;
+	width:300px;
+	background:#123123;
+}
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+	background: #ffffff;
+  }
+.span4 {
+    width: 370px;
+  }
+  .span3{
+	width:220px;
+	background:#dfdfdf;
+	}
+	.span2{
+		width:140px;
+	}
+ 

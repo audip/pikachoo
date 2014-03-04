@@ -1,0 +1,108 @@
+#tab a
+{
+	color:#FFF;
+	background-color:#FF9933;
+	width:9em;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+#tab a:hover
+{
+	background-color:#FF0000;
+	color:#FFF;
+}
+
+#rem a
+{
+	color:#FFFFFF;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+.button:hover
+{
+	border:groove;
+	
+	background-color:#0099FF;
+	color:#EEEEEE;
+}
+#header
+{
+	color:#FF0000;
+	text-transform:uppercase;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;	
+}
+#addp a
+{
+	color:#FF0000;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+.button1:hover
+{
+	border:groove;
+	
+	background-color:#FF0033;
+	color:#EEEEEE;
+}
+#addp a
+{
+	color:#FFF;
+	background-color:#FF9933;
+	width:9em;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+#addp a:hover
+{
+	background-color:#FF0000;
+	color:#FFF;
+}
+
+#order a
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	font-style:normal;
+	color:#3300FF;
+}
+table
+{
+	border-collapse:collapse;
+	border:2px solid;
+	border-radius:25px;
+	
+}
+
+table a
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	font-style:normal;
+	
+}
+#main a
+{
+	color:#FFF;
+	background-color:#FF9933;
+	width:9em;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+#main a:hover
+{
+	background-color:#FFFF33;
+	color:#669900;
+}
+#mainpage a
+{
+	color:#FFFF33;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+#mainpage a:hover
+{
+	background-color:#99FF33;
+}
