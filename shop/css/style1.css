@@ -1,0 +1,11 @@
+
+body{
+	font-family: Cambria, Georgia, serif;
+	background: #f9f9f9 url(../images/bg.jpg);
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
