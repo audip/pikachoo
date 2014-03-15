@@ -1,18 +1,35 @@
 <?php
+	ob_start();
 	session_start();
 	require "samkush.php";
 ?>
 
 <!DOCTYPE html>
  <html lang="en" class="no-js">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>Pikachoo | Blue Chinese Fan Envelope 3</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
-        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
-        <meta name="author" content="Codrops" />
+   
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-language" content="en" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="gM2QaflSX7Gc4v5R8AHXNNkCn6rUa9FwdV_8TtnF9kY" />
+		<link rel="shortcut icon" href="http://pikachoo.in/favicon.ico" type="image/x-icon" >
+       
+        <meta name="description" content="Pikachoo is an Online Company started by Kaushal Bajaj & Samip Jain with an aim to open new doors for Private Testers." />
+        <meta name="keywords" content="Envelope,Velvet Envelope,Velvet Kundan Envelope,Velvet,Kundan,Pikachoo,Pikachoo Store, Online Gift Store,gifts,flower,cupcakes,cakes,gift 
+store,Samip Jain,Kaushal Bajaj" />
+        <meta name="author" content="Kaushal Bajaj & Samip Jain" />
+        <meta name="language" content="english">
+		
+		<meta property="og:title" content="Pikachoo | The Online Gift Store: Pikachoo is a complete Online Gift 
+Store for your entire family" />
+		<meta property="og:type" content="website" />	
+		<meta property="og:url" content="www.pikachoo.in" />
+		<meta property="og:image" content="www.pikachoo.in/pikachoo_185.jpg" />
+		<meta property="og:admins" content="100001460800375">
+		<meta property="og:admins" content="100000658551655">
+		<meta property="og:description" content="Pikachoo is an Online Company started by Kaushal Bajaj & Samip Jain with an aim to open new doors for Private 
+Testers.">
+        <title>Blue-Chinese-Envelope-2 | Pikachoo</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" type="text/css" href="../../css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -26,18 +43,7 @@
   <script src="/resources/demos/external/globalize.culture.ja-JP.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-
-    $( "#spinner" ).spinner({
-      min: 1,
-      max: 20,
-      step: 1,
-      start: 1000,
-      numberFormat: "C"
-    });
-  });
-  </script>
+ 
     </head>
     <body>
         <div class="container">		
@@ -128,57 +134,7 @@
             </div><!--/ Codrops top bar -->
 		</div>
 		
-		<nav id="nav">
-		 <div class="container1">
-			<ul class="main-menu">
-			<li>
-				<a href="gift.php" title="cakes" class="title">Gifts</a>
-				<ul class="span2">
-					<li>
-                         <a href="category.php" title="type1" class="title">Type 1</a>                    </li>
-					<li>
-                        <a href="category.php" title="type2" class="title">Type 2</a>                    </li>
-					<li>
-                        <a href="category.php" title="type3" class="title">Type 3</a>                    </li>
-					<li>
-                        <a href="category.php" title="type4" class="title">Type 4</a>                    </li>
-					<li>
-                        <a href="category.php" title="type5" class="title">Type 5</a>                    </li>
-				</ul>
-			</li>
-			<li>
-                <a href="../flower/flower.php" title="type1" class="title">Flower</a>            
-				<ul class="span2">
-					<li>
-                         <a href="../flower/natural.php" title="Natural Flower" class="title">Natural Flower</a>                    </li>
-					<li>
-                        <a href="../flower/artificial.php" title="Artificial Flower" class="title">Artificial Flower</a>                    </li>
-				</ul>
-			</li>
 		
-			<li>
-				<a href="cakes.php" title="cakes" class="title">Cakes</a>
-				<ul class="span2">
-					<li>
-                         <a href="../cakes/cupcakes.php" title="Cupcakes" class="title">Cupcakes</a>                    </li>
-					<li>
-                        <a href="../cakes/pudding.php" title="Puddings" class="title">Puddings</a>                    </li>
-					<li>
-                        <a href="../cakes/pies.php" title="pies & chocolates" class="title">Pies & Chocolates</a>                    </li>
-				</ul>
-			</li>
-			<li>
-				<a href="#" title="cakes" class="title">Bags</a>
-				<ul class="span2">
-					<li>
-                         <a href="envelope.php" title="type1" class="title">Envelope</a>                    </li>
-					<li>
-                        <a href="potli.php" title="type1" class="title">Potli Bags</a>                    </li>
-				</ul>
-			</li>
-			</ul>
-		</div>
-		</nav>
 		<?php
 			require "samkush.php";
 			$item_id=$_GET['id'];
@@ -203,7 +159,7 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
-					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input id="spinner" type="text" name="qty" value="1" size="5"></td>
+					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input type="number" name="qty" value="1" max=20 min=1 size="5"></td>
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
@@ -239,19 +195,19 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
 
                     <ul class="links">
                         <li>
-                            <a href="about-us.html" title="About us" class="title">About us</a>
+                            <a href="/about/" title="About us" class="title">About us</a>
+                        </li>
+                        <!--<li>
+                            <a href="/" title="Careers" class="title">Careers</a>
+                        </li>-->
+                        <li>
+                            <a href="/faq/" title="FAQs" class="title">FAQ</a>
                         </li>
                         <li>
-                            <a href="elements.html" title="Elements" class="title">Careers</a>
+                            <a href="/shop/track.php" title="My Order" class="title">Trace My Order</a>
                         </li>
                         <li>
-                            <a href="grids.html" title="Grids" class="title">Grids</a>
-                        </li>
-                        <li>
-                            <a href="store-locator.html" title="Store locator" class="title">Store locator</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html" title="Contact us" class="title">Contact us</a>
+                            <a href="/contact/" title="Contact us" class="title">Contact us</a>
                         </li>											
                     </ul>
                 </div>
@@ -265,7 +221,7 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
 
                     <ul class="links">								
                         <li>
-                            <a href="login-register.html" title="Login / Register">Login / Register</a>									
+                            <a href="/login/" title="Login / Register">Login / Register</a>									
                         </li>
                     </ul>
                 </div>
@@ -281,13 +237,16 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
 
                     <ul class="links">
                         <li>
-                            <a href="category.html" title="Mens">Gifts</a>
+                            <a href="/shop/gift/gift.php" title="Gifts">Gifts</a>
                         </li>
                         <li>
-                            <a href="category.html" title="Womens">Flower</a>
+                            <a href="/shop/flower/flower.php" title="Flower">Flower</a>
                         </li>
 						<li>
-                            <a href="category.html" title="Womens">Cakes</a>
+                            <a href="/shop/cakes/cakes.php" title="Cakes">Cakes</a>
+                        </li>
+						<li>
+                            <a href="/shop/bags/bags.php" title="Cakes">Bags</a>
                         </li>
                     </ul>
                 </div>
@@ -297,20 +256,17 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
             </div>
 
             <div class="span4">
-                <h6>From the blog</h6>
+                <h6>Youtube Gallery</h6>
 
                 <ul class="list-chevron links">
                     <li>
-                        <a href="blog-post.html">Article with video</a>
-                        <small>05/01/2013</small>
+                        <a href="https://www.youtube.com/watch?v=yFZDltqVLwE">Official Teaser</a>
+                        <small>27/02/2014</small>
                     </li>
+					
                     <li>
-                        <a href="blog-post.html">Article with images</a>
-                        <small>03/14/2013</small>
-                    </li>
-                    <li>
-                        <a href="blog-post.html">Article with style!</a>
-                        <small>08/31/2013</small>
+                        <a href="http://youtu.be/MO6OcXyhObM">Official Promotional Video</a>
+                        <small>01/03/2014</small>
                     </li>
                 </ul>
             </div>
@@ -326,51 +282,31 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
                     <ul class="social-icons">
 
                         <li>
-                            <a class="twitter" href="#" title="Twitter">Twitter</a>								
+                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter" target="blank">Twitter</a>								
                         </li>
 
                         <li>
-                            <a class="facebook" href="#" title="Facebook">Facebook</a>								
+                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook" target="blank">Facebook</a>								
                         </li>
 
                         <li>
-                            <a class="pinterest" href="#" title="Pinterest">Pinterest</a>								
+                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest" target="blank">Pinterest</a>								
                         </li>
 
                         <li>
-                            <a class="youtube" href="#" title="YouTube">YouTube</a>								
+                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube" target="blank">YouTube</a>								
+                        </li>
+						
+						<li>
+                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo" target="blank">Vimeo</a>								
                         </li>
 
                         <li>
-                            <a class="vimeo" href="#" title="Vimeo">Vimeo</a>								
+                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+" target="blank">Google+</a>								
                         </li>
 
                         <li>
-                            <a class="flickr" href="#" title="Flickr">Flickr</a>								
-                        </li>
-
-                        <li>
-                            <a class="googleplus" href="#" title="Google+">Google+</a>								
-                        </li>
-
-                        <li>
-                            <a class="dribbble" href="#" title="Dribbble">Dribbble</a>								
-                        </li>
-
-                        <li>
-                            <a class="tumblr" href="#" title="Tumblr">Tumblr</a>								
-                        </li>
-
-                        <li>
-                            <a class="digg" href="#" title="Digg">Digg</a>								
-                        </li>
-
-                        <li>
-                            <a class="linkedin" href="#" title="LinkedIn">LinkedIn</a>								
-                        </li>
-
-                        <li>
-                            <a class="instagram" href="#" title="Instagram">Instagram</a>								
+                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn" target="blank">LinkedIn</a>								
                         </li>
 
                     </ul>
@@ -383,19 +319,34 @@ Suitable for giving MONEY GIFTS on wedding and on other occassions.<h3><u>Set of
         </div>
     </div>
 </div>
-	<!--credits starts here-->
-				
-			<div class="credits">
+
+		
+		<!--Credits starts here-->	
+		<div class="credits">
 			<div class="container_footer">
 				<div class="row">
 					<div class="span8">
-						<p>&copy; 2014 <a href="http://themeforest.net/item/la-boutique-responsive-ecommerce-template/5573130?ref=Tfingi" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
+						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="http://themeforest.net/item/la-boutique-responsive-ecommerce-template/5573130?ref=Tfingi" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>
 		</div>
-	</body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47903223-1', 'pikachoo.in');
+  ga('send', 'pageview');
+
+</script>
+		
+    </body>
 </html>
+<?php
+ob_flush();
+?>

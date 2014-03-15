@@ -6,14 +6,29 @@
 
 <!DOCTYPE html>
  <html lang="en" class="no-js">
-    <head>
-        <meta charset="UTF-8" />
-        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>Pikachoo | Description</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
-        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
-        <meta name="author" content="Codrops" />
+   
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-language" content="en" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="gM2QaflSX7Gc4v5R8AHXNNkCn6rUa9FwdV_8TtnF9kY" />
+		<link rel="shortcut icon" href="http://pikachoo.in/favicon.ico" type="image/x-icon" >
+       
+        <meta name="description" content="Pikachoo is an Online Company started by Kaushal Bajaj & Samip Jain with an aim to open new doors for Private Testers." />
+        <meta name="keywords" content="Cakes,Chocolate Mousse,Mousse,Pies,Puddings,Cupcakes,Pikachoo,Pikachoo Store, Online Gift Store,gifts,flower,cupcakes,cakes,gift store,Samip Jain,Kaushal Bajaj" />
+        <meta name="author" content="Kaushal Bajaj & Samip Jain" />
+        <meta name="language" content="english">
+		
+		<meta property="og:title" content="Pikachoo | The Online Gift Store: Pikachoo is a complete Online Gift 
+Store for your entire family" />
+		<meta property="og:type" content="website" />	
+		<meta property="og:url" content="www.pikachoo.in" />
+		<meta property="og:image" content="www.pikachoo.in/pikachoo_185.jpg" />
+		<meta property="og:admins" content="100001460800375">
+		<meta property="og:admins" content="100000658551655">
+		<meta property="og:description" content="Pikachoo is an Online Company started by Kaushal Bajaj & Samip Jain with an aim to open new doors for Private 
+Testers.">
+        <title>Chocolate Lava Cake | Pikachoo</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
         <link rel="stylesheet" type="text/css" href="../../css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
@@ -27,18 +42,7 @@
   <script src="/resources/demos/external/globalize.culture.ja-JP.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
 
-    $( "#spinner" ).spinner({
-      min: 1,
-      max: 20,
-      step: 1,
-      start: 1000,
-      numberFormat: "C"
-    });
-  });
-  </script>
     </head>
     <body>
         <div class="container">		
@@ -128,50 +132,7 @@
             </div><!--/ Codrops top bar -->
 		</div>
 		
-		<nav id="nav">
-		 <div class="container1">
-			<ul class="main-menu">
-			<li>
-				<a href="gift.php" title="cakes" class="title">Gifts</a>
-				<ul class="span2">
-					<li>
-                         <a href="category.php" title="type1" class="title">Type 1</a>                    </li>
-					<li>
-                        <a href="category.php" title="type2" class="title">Type 2</a>                    </li>
-					<li>
-                        <a href="category.php" title="type3" class="title">Type 3</a>                    </li>
-					<li>
-                        <a href="category.php" title="type4" class="title">Type 4</a>                    </li>
-					<li>
-                        <a href="category.php" title="type5" class="title">Type 5</a>                    </li>
-				</ul>
-			</li>
-			<li>
-                <a href="flower.php" title="type1" class="title">Flower</a>            </li>
 		
-			<li>
-				<a href="cakes.php" title="cakes" class="title">Cakes</a>
-				<ul class="span2">
-					<li>
-                         <a href="cupcakes.php" title="type1" class="title">Cupcakes</a>                    </li>
-					<li>
-                        <a href="puddings.php" title="type1" class="title">Puddings</a>                    </li>
-					<li>
-                        <a href="pies.php" title="type1" class="title">Pies & Chocolates</a>                    </li>
-				</ul>
-			</li>
-			<li>
-				<a href="../bags/bags.php" title="cakes" class="title">Bags</a>
-				<ul class="span2">
-					<li>
-                         <a href="../bags/envelope.php" title="type1" class="title">Envelope</a>                    </li>
-					<li>
-                        <a href="../bags/potli.php" title="type2" class="title">Potli Bags</a>                    </li>
-				</ul>
-			</li>
-			</ul>
-		</div>
-		</nav>
 		<?php
 			require "samkush.php";
 			$item_id=$_GET['id'];
@@ -197,7 +158,7 @@ Cake</i></b>.<br>Totally irresistable..<b>yumm..</b>!!<u>Set of 6 pieces in 1 se
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
-					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input id="spinner" type="text" name="qty" value="1" size="5"></td>
+					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input type="number" name="qty" value="1" max=20 min=1 size="5" required></td>
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>

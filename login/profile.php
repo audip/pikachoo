@@ -1,6 +1,0 @@
-<html>
-<body>
-
-Coming Soon
-</body>
-</html>

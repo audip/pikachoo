@@ -34,7 +34,7 @@
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
 		
-		<title>Pikachoo | Log In</title>
+		<title>Pikachoo | Log into your Pikachoo Account</title>
     </head>
     <body oncontextmenu="return false;">
         <div class="container">		
@@ -102,14 +102,14 @@ if(isset($_POST['log1']))
 	{
 		if($row['email']==$user && $row['password']==$pass)
 		{
-			if($row['code']=='0')
+			if($row['code']=='0' && $row['codeid']=='33')
 			{
 				$_SESSION['s_var']=0;
 				$_SESSION['uid']=$row[0];
 				$flag=0;
 				header("location:../admin/admin.php");
 			}
-			else if($row['code']=='1')
+			else if($row['code']=='1' && $row['codeid']=='77')
 			{
 				$_SESSION['s_var']=1;
 				$flag=0;

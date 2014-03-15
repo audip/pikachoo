@@ -8,7 +8,607 @@
 
 <url>
   <loc>http://pikachoo.in/</loc>
-  <lastmod>2014-02-26T18:05:36+00:00</lastmod>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/video/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/about/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/contact/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/login/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cart.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/gift.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/flower.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/cakes.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/bags.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/contact/index.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/login/index.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/index.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/natural.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/artificial.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/cupcakes.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/puddings.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/pies.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/envelope.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/potli.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Happy-Birthday-Baby-Girl.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Yellow-Funky-School-Bus.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/BOP-With-Carnition-Delight.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Kundan-Envelope-2.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/login/forgot_password.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/login/nojava.html</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/video/index.html</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/login/index.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Oval-Shaped-Pearl-PhotoFrame.php?id=10001</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Heart-Shaped-Pearl-PhotoFrame.php?id=10002</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Rectangle-Shaped-Pearl-PhotoFrame.php?id=10003</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Black-&amp;-Red-PhotoFrame.php?id=10004</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Blue-Foldable-Funky-School-Bus.php?id=10005</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Medicine-Reminder-Box.php?id=10006</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Full-Poker-Set.php?id=10007</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Hanging-Teddy-Couple.php?id=10008</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Rectangle-Shaped-Heart-Cushion.php?id=10009</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Radha-Kishan-Showpiece-1.php?id=10010</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Radha-Kishan-Showpiece-2.php?id=10011</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Swinging-Teddy.php?id=10013</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Gold-Plated-Natural-Rose.php?id=10014</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Yellow-Funky-School-Bus.php?id=10015</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Set-of-4-PhotoFrame.php?id=10016</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Teddy-PhotoFrame.php?id=10017</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Hanging-Teddy-Couple-Pink.php?id=10018</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Lord-Ganesha-Showpiece.php?id=10019</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Pinky-Promise.php?id=10020</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Just-Married.php?id=10021</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Fiesta-Fruit-Champagne.php?id=10022</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Chocolate-Book.php?id=10023</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Edison-Bulb-Watch.php?id=10024</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Oranage-Doremon-Sharpner.php?id=10025</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Blue-Doremon-Sharpner.php?id=10026</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Multicolor-Soft-Ball.php?id=10027</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Hanging-Bird.php?id=10028</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Dolphin.php?id=10029</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Stuff-Heart.php?id=10030</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/gift/Hanging-Star.php?id=10031</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Indian-Red-Roses-With-Orchids.php?id=20001</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Red-Artificial-Cocktail-Bouquet.php?id=20002</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Dutch-Red-Rose-With-Orchids.php?id=20003</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Yellow-Cocktail-With%20Wine-Glasses.php?id=20005</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Peach-And-Purple-Combo.php?id=20006</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Golden-Orchid-With-Fruit-Cocktail.php?id=20007</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Handle-Indian-Rose-Bouquet.php?id=20008</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Laddo-Gopal-Antique-Bouquet.php?id=20009</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/BOP-With-Carnition-Delight.php?id=20010</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Peach-And-Purple-Affair.php?id=20011</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/A-Date-With-Orchids.php?id=20012</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Orange-Flowers-With-Glass-Vase.php?id=20013</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Purple-And-White-Shaded-Rose-Bouquet.php?id=20014</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Happy-Birthday-Baby-Boy.php?id=20015</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Happy-Birthday-Baby-Girl.php?id=20016</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/White-Carnition-With-BOP-Flowers.php?id=20017</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Blue-Orchid-And-Yellow-Affair.php?id=20018</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Radha-Krishna-Showpiece-Bouquet.php?id=20019</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/flower/Radium-Radha-Krishna-Bouquet.php?id=20020</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Confetti-Cupcakes%20(Set%20of%206).php?id=30001</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Strawberry-Swirl%20(Set%20of%206).php?id=30002</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/The-Black-And-White-Affair%20(Set%20of%206).php?id=30003</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Chocolava-Cupcake%20(Set%20of%206).php?id=30004</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Red-Velvet-Cupcake%20(Set%20of%206).php?id=30005</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Blue-Velvet-Cupcakes%20(Set%20of%206).php?id=30006</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Lemon-Blueberry-Cupcakes%20(Set%20of%206).php?id=30007</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Double-Choco-Chip-Cupcakes%20(Set%20of%206).php?id=30008</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Chocolate-Fudge-Pudding%20(Set%20of%205).php?id=30009</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Seasonal-Fruit-Pudding%20(Set%20of%205).php?id=30010</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Apple-Cinnamon-Pie.php?id=30011</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Seasonal-Fruit-Pie.php?id=30012</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Spinach-Pie.php?id=30013</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Corn-And-Cheese-Pie.php?id=30014</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Creamy-Mushroom-Pie.php?id=30015</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Chocolate-Mousse.php?id=30016</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/cakes/Strawberry-Mousse.php?id=30017</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Jamawar-Envelope-1%20(Set%20of%206).php?id=40001</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Jamawar-Envelope-2%20(Set%20of%206).php?id=40002</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Jamawar-Envelope-3%20(Set%20of%206).php?id=40003</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Dupioni-Silk-Envelope-1%20(Set%20of%206).php?id=40004</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Emboss-Envelope%20(Set%20of%206).php?id=40005</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Stone-Envelope-1.php?id=40006</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Stone-Envelope-2.php?id=40007</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Stone-Envelope-3.php?id=40008</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Stone-Envelope-4.php?id=40009</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Kundan-Envelope-1.php?id=40010</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Kundan-Envelope-2.php?id=40011</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Kundan-Envelope-3.php?id=40012</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Plain-Dupioni-Envelope%20(Set%20of%206).php?id=40013</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Maroon-Velvet-Potli.php?id=40014</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Red-Velvet-Potli-Bag-1.php?id=40015</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Red-Velvet-Potli-Bag-2.php?id=40016</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Velvet-Heavy-lace-Potli-Bag.php?id=40017</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Blue-Chinese-Fan-Envelope-1.php?id=40018</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Green-Chinese-Fan-Envelope.php?id=40019</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Blue-Chinese-Fan-Envelope-2.php?id=40020</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/bags/Blue-Chinese-Fan-Envelope-3.php?id=40021</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/login/index2.html</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/login/forgot_password.php</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/login/nojava.html</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/login/</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://pikachoo.in/shop/login/index2.html</loc>
+  <lastmod>2014-03-07T05:13:40+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 </urlset>

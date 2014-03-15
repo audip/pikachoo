@@ -43,18 +43,7 @@ Testers.">
   <script src="/resources/demos/external/globalize.culture.ja-JP.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-
-    $( "#spinner" ).spinner({
-      min: 1,
-      max: 20,
-      step: 1,
-      start: 1000,
-      numberFormat: "C"
-    });
-  });
-  </script>
+ 
     </head>
     <body>
         <div class="container">		
@@ -143,48 +132,7 @@ Testers.">
             </div><!--/ Codrops top bar -->
 		</div>
 		
-				<nav id="nav">
-		 <div class="container1">
-			<ul class="main-menu">
-			<li>
-				<a href="/shop/gift/gift.php" class="title">Gifts</a>
 				
-			</li>
-			<li>
-                <a href="/shop/flower/flower.php" class="title">Bouquet</a>       
-				<ul class="span2">
-					<li>
-                         <a href="/shop/flower/natural.php" class="title">Natural Bouquet</a>                    </li>
-					<li>
-                        <a href="/shop/flower/artificial.php" class="title">Artificial Bouquet</a>                    </li>
-                </ul>
-			</li>
-		
-			<li>
-				<a href="cakes.php" class="title">Cakes</a>
-				<ul class="span2">
-					<li>
-                         <a href="/shop/cakes/cupcakes.php" class="title">Cupcakes</a>                    </li>
-					<li>
-                        <a href="/shop/cakes/puddings.php" class="title">Puddings</a>                    </li>
-					<li>
-                        <a href="/shop/cakes/pies.php" class="title">Pies &amp; Chocolates</a>                    </li>
-				</ul>
-			</li>
-			<li>
-				<a href="bags.php" class="title">Bags</a>
-				<ul class="span2">
-					<li>
-                         <a href="envelope.php" class="title">Envelope</a>                    </li>
-					<li>
-                        <a href="potli.php" class="title">Potli Bags</a>                    </li>
-		
-				</ul>
-			</li>
-			</ul>
-		</div>
-		</nav>
-		
 	
 		<?php
 			//require "samkush.php";
@@ -205,11 +153,11 @@ Testers.">
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
-					<td><h2>Description</h2>This <b>shagun envelope cum clutch</b> is made of a rich <b>velvet fabric</b>The highlight of the product is a beautiful <b>Brooch</b> made with <b>kundan, meenakari and stones</b> along with a beautiful <b>MOTIF</b> lace at the end.It is ideal for gifting at festivities like <b>Diwali and Wedding</b>. <h3><u>Set of 6 pieces in 1 pack.</u></h3></td>
+					<td><h2>Description</h2>This <b>shagun envelope cum clutch</b> is made of a rich <b>velvet fabric</b>The highlight of the product is a beautiful <b>Brooch</b> made with <b>kundan, meenakari and stones</b> along with a beautiful <b>MOTIF</b> lace at the end.It is ideal for gifting at festivities like <b>Diwali and Wedding</b>. </td>
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
-					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input id="spinner" type="text" name="qty" value="1" size="5"></td>
+					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input type="number" name="qty" value="1" max=20 min=1 size="5"></td>
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>

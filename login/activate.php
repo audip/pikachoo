@@ -10,7 +10,7 @@ require "samkush.php";
 	$pass=$_SESSION['pass'];
 	$to=$_SESSION['email'];
 	$subject="Account Activated";
-	$message="You have successfully activated your account<br>Username: '$email'<br>Password: '$pass'";
+	$message="You have successfully activated your account.Username: '$email'   Password: '$pass'";
 	$from="info@pikachoo.in";
 	$headers="From:" . $from;
 	mail($to,$subject,$message,$headers);

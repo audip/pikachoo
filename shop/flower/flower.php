@@ -16,7 +16,7 @@
 		<link rel="shortcut icon" href="http://pikachoo.in/favicon.ico" type="image/x-icon" >
        
         <meta name="description" content="Pikachoo is an Online Company started by Kaushal Bajaj & Samip Jain with an aim to open new doors for Private Testers." />
-        <meta name="keywords" content="Bouquets,flowers,natural,artificial,natural flowers,Pikachoo,Pikachoo Store, Online Gift Store,gifts,flower,cupcakes,cakes,gift 
+        <meta name="keywords" content="Pikachoo,Pikachoo Bouquets,Flowers,Pikachoo Bouquets,flowers,natural,artificial,natural flowers,Pikachoo,Pikachoo Store, Online Gift Store,gifts,flower,cupcakes,cakes,gift 
 store,Samip Jain,Kaushal Bajaj" />
         <meta name="author" content="Kaushal Bajaj & Samip Jain" />
         <meta name="language" content="english">
@@ -171,7 +171,7 @@ Testers.">
 		
 		<table align="center">
 			<tr><td width="400">
-				<img src="/shop/1.jpg" name="slide" height="400" alt="dominos" style="border-bottom:5px solid #2e4add">
+				<img src="/shop/1.jpg" name="slide" height="400" alt="Pikachoo" style="border-bottom:5px solid #2e4add">
 				<script language="javascript" src="/shop/slide.js"></script></td></tr>
 		</table>
 		

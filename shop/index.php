@@ -132,15 +132,15 @@
 		 <div class="container1">
 			<ul class="main-menu">
 			<li>
-				<a href="gift/gift.php" title="cakes" class="title">Gifts</a>
+				<a href="gift/gift.php" title="Gifts" class="title">Gifts</a>
 			</li>
 			<li>
-                <a href="flower/flower.php" title="type1" class="title">Flower</a>            
+                <a href="flower/flower.php" title="Flower" class="title">Bouquet</a>            
 				<ul class="span2">
 					<li>
-                         <a href="flower/natural.php" title="Natural Flower" class="title">Natural Flower</a>                    </li>
+                         <a href="flower/natural.php" title="Natural Flower" class="title">Natural Bouquet</a>                    </li>
 					<li>
-                        <a href="flower/artificial.php" title="Artificial Flower" class="title">Artificial Flower</a>                    </li>
+                        <a href="flower/artificial.php" title="Artificial Flower" class="title">Artificial Bouquet</a>                    </li>
 				</ul>
 			</li>
 		
@@ -156,12 +156,12 @@
 				</ul>
 			</li>
 			<li>
-				<a href="bags/bags.php" title="cakes" class="title">Bags</a>
+				<a href="bags/bags.php" title="Bags" class="title">Bags</a>
 				<ul class="span2">
 					<li>
                          <a href="bags/envelope.php" title="Envelope" class="title">Envelope</a>                    </li>
 					<li>
-                        <a href="bags/polti.php" title="Potli Bags" class="title">Potli Bags</a>                    </li>
+                        <a href="bags/potli.php" title="Potli Bags" class="title">Potli Bags</a>                    </li>
 				</ul>
 			</li>
 			</ul>
@@ -194,9 +194,9 @@
                         <img src="img/world-shipping.png" alt="" />
                         <div class="hgroup title">
                             <h3>Best Quality guarantee</h3>
-                            <h5>YO yo</h5>
+                            <h5>Pikachoo</h5>
                         </div>
-                        <p>Pikachoo</p>
+                        <p>Quality as you like it</p>
                     </div>
                 </div>
             </div>
@@ -207,9 +207,9 @@
                         <img src="img/low-price.png" alt="" />
                         <div class="hgroup title">
                             <h3>Lowest price guarantee!</h3>
-                            <h5>YO Yo</h5>
+                            <h5>Pikachoo</h5>
                         </div>
-                        <p>Pikachoo</p>
+                        <p>Affordable Prices</p>
                     </div>
                 </div>
             </div>
@@ -270,86 +270,86 @@
                         <div class="span9">                                                                        
                                    <!-- Products list -->
 							<ul class="product-list isotope">
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="400">
+									<a href="cakes/Chocolate-Fudge-Pudding (Set of 5).php?id='30009'" title="Chocolate-Fudge-Pudding">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/Chocolate-Fudge-Pudding.jpg" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.400</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>Chocolate-Fudge-Pudding</h3>
 										</div>
 									</a>
 								</li>
 								
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="1700">
+									<a href="flower/Happy-Birthday-Baby-Girl.php?id='20016'" title="Happy-Birthday-Baby-Girl">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/Happy-Birthday-Baby-Girl.JPG" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.800</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>Happy-Birthday-Baby-Girl</h3>
 										</div>
 									</a>
 								</li>
 								
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="700">
+									<a href="gift/Yellow-Funky-School-Bus.php?id='10015" title="Yellow-Funky-School-Bus">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/Yellow-Funky-School-Bus.jpg" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.700</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>Yellow-Funky-School-Bus</h3>
 										</div>
 									</a>
 								</li>
 								
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="700">
+									<a href="flower/BOP-With-Carnition-Delight.php?id='20010'" title="BOP-With-Carnition-Delight">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/BOP-With-Carnition-Delight.jpg" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.700</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>BOP-With-Carnition-Delight</h3>
 										</div>
 									</a>
 								</li>
 								
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="300">
+									<a href="cakes/Confetti-Cupcakes (Set of 6).php?id='300091'" title="Confetti-Cupcakes">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/Confetti-Cupcakes.jpg" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.300</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>Confetti-Cupcakes</h3>
 										</div>
 									</a>
 								</li>
 								
-								<li class="standard" data-price="58">
-									<a href="product.html" title="Lisette Dress">
+								<li class="standard" data-price="280">
+									<a href="bags/Velvet-Kundan-Envelope-2.php?id='40011'" title="Velvet-Kundan-Envelope-2">
 										<div class="image">
-											<img class="primary" src="img/thumbnails/db_file_img_137_640xauto.jpg" width="200px" height="400px" alt="" />
+											<img class="primary" src="/admin/photos/Velvet-Kundan-Envelope-2.jpg" width="200px" height="400px" alt="" />
 										</div>
 										<div class="title">
 											<div class="prices">
-												<span class="price">£58.00</span>
+												<span class="price">Rs.280</span>
 											</div>
-											<h3>Lisette Dress</h3>
+											<h3>Velvet-Kundan-Envelope-2</h3>
 										</div>
 									</a>
 								</li>

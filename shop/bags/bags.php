@@ -285,16 +285,16 @@ Testers.">
 
                     <ul class="links">
                         <li>
-                            <a href="shop/gift/gift.php" title="Gifts">Gifts</a>
+                            <a href="/shop/gift/gift.php" title="Gifts">Gifts</a>
                         </li>
                         <li>
-                            <a href="shop/flower/flower.php" title="Flower">Flower</a>
+                            <a href="/shop/flower/flower.php" title="Flower">Flower</a>
                         </li>
 						<li>
-                            <a href="shop/cakes/cakes.php" title="Cakes">Cakes</a>
+                            <a href="/shop/cakes/cakes.php" title="Cakes">Cakes</a>
                         </li>
 						<li>
-                            <a href="shop/bags/bags.php" title="Cakes">Bags</a>
+                            <a href="/shop/bags/bags.php" title="Cakes">Bags</a>
                         </li>
                     </ul>
                 </div>
@@ -330,23 +330,23 @@ Testers.">
                     <ul class="social-icons">
 
                         <li>
-                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter">Twitter</a>								
+                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter" target="blank">Twitter</a>								
                         </li>
 
                         <li>
-                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook">Facebook</a>								
+                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook" target="blank">Facebook</a>								
                         </li>
 
                         <li>
-                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest">Pinterest</a>								
+                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest" traget="blank">Pinterest</a>								
                         </li>
 
                         <li>
-                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube">YouTube</a>								
+                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube" target="blank">YouTube</a>								
                         </li>
 						
 						<li>
-                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo">Vimeo</a>								
+                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo" target="blank">Vimeo</a>								
                         </li>
 
                         <li>
@@ -354,7 +354,7 @@ Testers.">
                         </li>
 
                         <li>
-                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn">LinkedIn</a>								
+                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn" target="blank">LinkedIn</a>								
                         </li>
 
                     </ul>
@@ -377,7 +377,7 @@ Testers.">
 						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="#" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>

@@ -40,7 +40,7 @@
 				  <a href="/video/">Video</a>
 				  <a href="/about/">About</a>
 				  <a href="/shop/">Shop</a>
-				  <a href="/contact/">Contact Us</a>
+				  <a href="#">Contact Us</a>
 				  
                 
                     <!--<a href="login.php" class="codrops-demos">
@@ -65,7 +65,7 @@
 		<tr align="right"><th colspan="3"><u>DROP YOUR QUERY..!!</u>&nbsp;&nbsp;&nbsp;&nbsp;</th></tr>
 		<tr><td rowspan="9"><b><i>Have a question? lol..!!</i></b><br>
 		Before you contact us,<br>skim through our<br> <a href="../about/faq"><b>Frequently Asked Questions</b></a><br><hr width="200">
-		<img src="contact-icon.png">Call us : <br>	<b>+91-8013637563<br>+91-7278044643</b><br><br> Email Us: <br> <b>info@pikachoo.in</b><br><br><img src="skype.png"><b>Skype:</b> <td rowspan="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;NAME <sup>*</sup></td></tr>
+		<img src="contact-icon.png">Call us : <br>	<b>+91-8013637563<br>+91-7278404643</b><br><br> Email Us: <br> <b>info@pikachoo.in</b><br><br><img src="skype.png"><b>Skype: pikachoo_in</b> <td rowspan="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;NAME <sup>*</sup></td></tr>
 		<tr align="center"><td><input type="text" size="30" required name="c1"></td></tr>
 		<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;EMAIL <sup>*</sup></td></tr>
 		<tr align="center"><td><input type="text" size="30" required name="c2"></td></tr>
@@ -92,7 +92,7 @@
                             <a href="/about/" title="About us" class="title">About us</a>
                         </li>
                         <!--<li>
-                            <a href="/" title="Elements" class="title">Careers</a>
+                            <a href="/" title="" class="title">Careers</a>
                         </li>-->
                         <li>
                             <a href="/faq" title="Grids" class="title">FAQ</a>
@@ -131,16 +131,16 @@
 
                     <ul class="links">
                         <li>
-                            <a href="shop/gift/gift.php" title="Gifts">Gifts</a>
+                            <a href="/shop/gift/gift.php" title="Gifts">Gifts</a>
                         </li>
                         <li>
-                            <a href="shop/flower/flower.php" title="Flower">Flower</a>
+                            <a href="/shop/flower/flower.php" title="Flower">Flower</a>
                         </li>
 						<li>
-                            <a href="shop/cakes/cakes.php" title="Cakes">Cakes</a>
+                            <a href="/shop/cakes/cakes.php" title="Cakes">Cakes</a>
                         </li>
 						<li>
-                            <a href="shop/bags/bags.php" title="Cakes">Bags</a>
+                            <a href="/shop/bags/bags.php" title="Cakes">Bags</a>
                         </li>
                     </ul>
                 </div>
@@ -223,7 +223,7 @@
 						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="#" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>

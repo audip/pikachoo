@@ -5,13 +5,12 @@ require "samkush.php";
 ?>
 <html>
 <body>
-<?php
-	$_SESSION['user']=$_POST['usernamesignup'];
-	$_SESSION['email']=$_POST['emailsignup'];
-	$_SESSION['pass']=$_POST['passwordsignup'];
-	$_SESSION['repass']=$_POST['passwordconfirm'];
-	$_SESSION['code']=$_POST['code'];
+<?php	
+	$user=$_POST['usernamesignup'];
 	$email=$_POST['emailsignup'];
+	$pass=$_POST['passwordsignup'];
+	$repass=$_POST['passwordconfirm'];
+	$code=$_POST['code'];
 	$string="select username,email from samkush_login where email='$email'";
 	$res=mysqli_query($con,$string);
 	$row=mysqli_fetch_array($res);
@@ -24,7 +23,7 @@ require "samkush.php";
 	}
 	else
 	{
-		if($_SESSION['pass']!=$_SESSION['repass'])
+		if($pass!=$repass)
 		{
 			echo '<center>';
 			echo '<font color="red"><u>PLEASE CHECK YOUR PASSWORD</u></font><br>';
@@ -36,16 +35,24 @@ require "samkush.php";
 		}
 		else
 		{
+			$str="insert into samkush_login values('','$user','$email','$pass','guest','$code','33',CURDATE(),CURTIME(),NOW())";
+			mysqli_query($con,$str);
+			//echo $str;
+			$str1="select userid from samkush_login where email='$email'";
+			$res=mysqli_query($con,$str1);
+			$row=mysqli_fetch_array($res);
+			
 			$to=$_POST['emailsignup'];
 			$subject="Email Verification";
 			//$pass=$_GET['pass'];
-			$message="Please Click the link below to verify your Email Id: http://pikachoo.in/login/verify.php";
+			$message="Please Click the link below to verify your Email Id: http://pikachoo.in/login/verify.php?id='$row[0]'";
 
 			$from="info@pikachoo.in";
 
 			$headers="From:" . $from;
 			mail($to,$subject,$message,$headers);
 			echo "<center><h2>Check Your Email Id for verification</h2></center>";
+			echo '<center><a href="/login/">Go Back to Login Page</a>';
 		}
 	}
 	?>

@@ -252,7 +252,7 @@ Testers.">
                             <a href="/faq" title="Grids" class="title">FAQ</a>
                         </li>
                         <li>
-                            <a href="/shop/track.php" title="Store locator" class="title">Trace My Order</a>
+                            <a href="/shop/track.php" title="Trace My Order" class="title">Trace My Order</a>
                         </li>
                         <li>
                             <a href="/contact/index.php" title="Contact us" class="title">Contact us</a>
@@ -330,31 +330,31 @@ Testers.">
                     <ul class="social-icons">
 
                         <li>
-                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter">Twitter</a>								
+                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter" target="blank">Twitter</a>								
                         </li>
 
                         <li>
-                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook">Facebook</a>								
+                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook" target="blank">Facebook</a>								
                         </li>
 
                         <li>
-                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest">Pinterest</a>								
+                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest" target="blank">Pinterest</a>								
                         </li>
 
                         <li>
-                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube">YouTube</a>								
+                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube" target="blank">YouTube</a>								
                         </li>
 						
 						<li>
-                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo">Vimeo</a>								
+                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo" target="blank">Vimeo</a>								
                         </li>
 
                         <li>
-                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+">Google+</a>								
+                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+" target="blank">Google+</a>								
                         </li>
 
                         <li>
-                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn">LinkedIn</a>								
+                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn" target="blank">LinkedIn</a>								
                         </li>
 
                     </ul>
@@ -377,7 +377,7 @@ Testers.">
 						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="#" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>

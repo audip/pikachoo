@@ -172,7 +172,7 @@ if(isset($_POST['sign1']))
 	$flag=1;
 	if($pass==$repass)
 	{
-		$str="insert into samkush_login values('','$user','$email','$pass','guest','$code','$cid')";
+		$str="insert into samkush_login values('','$user','$email','$pass','guest','$code','77',CURDATE(),CURTIME(),NOW())";
 		mysqli_query($con,$str);
 		//echo $str;
 	}

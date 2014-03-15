@@ -43,18 +43,7 @@ Testers.">
   <script src="/resources/demos/external/globalize.culture.ja-JP.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-
-    $( "#spinner" ).spinner({
-      min: 1,
-      max: 20,
-      step: 1,
-      start: 1000,
-      numberFormat: "C"
-    });
-  });
-  </script>
+  
     </head>
     <body>
         <div class="container">		
@@ -143,47 +132,7 @@ Testers.">
             </div><!--/ Codrops top bar -->
 		</div>
 		
-				<nav id="nav">
-		 <div class="container1">
-			<ul class="main-menu">
-			<li>
-				<a href="/shop/gift/gift.php" class="title">Gifts</a>
-				
-			</li>
-			<li>
-                <a href="/shop/flower/flower.php" class="title">Bouquet</a>       
-				<ul class="span2">
-					<li>
-                         <a href="/shop/flower/natural.php" class="title">Natural Bouquet</a>                    </li>
-					<li>
-                        <a href="/shop/flower/artificial.php" class="title">Artificial Bouquet</a>                    </li>
-                </ul>
-			</li>
-		
-			<li>
-				<a href="cakes.php" class="title">Cakes</a>
-				<ul class="span2">
-					<li>
-                         <a href="/shop/cakes/cupcakes.php" class="title">Cupcakes</a>                    </li>
-					<li>
-                        <a href="/shop/cakes/puddings.php" class="title">Puddings</a>                    </li>
-					<li>
-                        <a href="/shop/cakes/pies.php" class="title">Pies &amp; Chocolates</a>                    </li>
-				</ul>
-			</li>
-			<li>
-				<a href="bags.php" class="title">Bags</a>
-				<ul class="span2">
-					<li>
-                         <a href="envelope.php" class="title">Envelope</a>                    </li>
-					<li>
-                        <a href="potli.php" class="title">Potli Bags</a>                    </li>
-		
-				</ul>
-			</li>
-			</ul>
-		</div>
-		</nav>
+			
 		
 	
 		<?php
@@ -209,7 +158,7 @@ Testers.">
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
-					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input id="spinner" type="text" name="qty" value="1" size="5"></td>
+					<td><form action="../temp.php" method="POST"><h2>Quantity</h2><input type="number" name="qty" value="1" max=20 min=1 size="5"></td>
 				</tr>
 				<tr>
 					<td width="40">&nbsp;</td>
@@ -340,31 +289,31 @@ Testers.">
                     <ul class="social-icons">
 
                         <li>
-                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter">Twitter</a>								
+                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter" target="blank">Twitter</a>								
                         </li>
 
                         <li>
-                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook">Facebook</a>								
+                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook" target="blank">Facebook</a>								
                         </li>
 
                         <li>
-                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest">Pinterest</a>								
+                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest" target="blank">Pinterest</a>								
                         </li>
 
                         <li>
-                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube">YouTube</a>								
+                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube" target="blank">YouTube</a>								
                         </li>
 						
 						<li>
-                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo">Vimeo</a>								
+                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo" target="blank">Vimeo</a>								
                         </li>
 
                         <li>
-                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+">Google+</a>								
+                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+" target="blank">Google+</a>								
                         </li>
 
                         <li>
-                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn">LinkedIn</a>								
+                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn" target="blank">LinkedIn</a>								
                         </li>
 
                     </ul>
@@ -387,7 +336,7 @@ Testers.">
 						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="#" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>

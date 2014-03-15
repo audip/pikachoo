@@ -40,10 +40,10 @@
 			<div class="codrops-top">
 				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="prism"><font color="deep grey">P</font>ikachoo</font>
 				  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/">Home</a>
-				  <a href="../video/index.html">Video</a>
-				  <a href="../about/">About</a>
-				  <a href="../shop/index.php">Shop</a>
-				  <a href="../contact/index.html">Contact Us</a>
+				  <a href="/video/">Video</a>
+				  <a href="/about/">About</a>
+				  <a href="/shop/">Shop</a>
+				  <a href="/contact/">Contact Us</a>
 		<?php
 					$uid=$_SESSION['uid'];
 					$str="select username,type,code from samkush_login where userid='$uid'";
@@ -142,11 +142,13 @@
 		</nav>
 
 <?php
+	echo $cid;
 	session_start();
 	if(isset($_SESSION['s_var']))
 	{
 		$uid=$_SESSION['uid'];
 		$cid=$_SESSION['cid'];
+		//echo $cid;
 		$string="update samkush_bill set userid='$uid' where userid='$cid'";
 		mysqli_query($con,$string);
 		$str="select username from samkush_login where userid='$uid'";
@@ -156,11 +158,12 @@
 	}
 	else
 	{
-		$str="select name,code from samkush_guest where code=(select max(code) from samkush_guest)";
+		$k=$_SESSION['tuid'];
+		$str="select name,code from samkush_guest where code='$k'";
 		$res=mysqli_query($con,$str);
 		$r=mysqli_fetch_array($res);
 		$uid=$r[1];
-		echo $uid;
+		//echo $uid;
 	}
 	//echo $str;
 	//echo $r[0];
@@ -207,7 +210,7 @@
 
 ?>
 	<br><br><br><br><br>
-<!--footer starts here-->					
+		<!--footer starts here-->					
 			<div class="footer">
     <div class="container">
         <div class="row">	
@@ -219,19 +222,19 @@
 
                     <ul class="links">
                         <li>
-                            <a href="about/" title="About us" class="title">About us</a>
+                            <a href="/about/" title="About us" class="title">About us</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a href="/" title="Elements" class="title">Careers</a>
+                        </li>-->
+                        <li>
+                            <a href="/faq/" title="Grids" class="title">FAQ</a>
                         </li>
                         <li>
-                            <a href="/" title="Grids" class="title">Grids</a>
+                            <a href="/shop/track.php" title="Store locator" class="title">Trace My Order</a>
                         </li>
                         <li>
-                            <a href="/" title="Store locator" class="title">Store locator</a>
-                        </li>
-                        <li>
-                            <a href="contact/index.html" title="Contact us" class="title">Contact us</a>
+                            <a href="/contact/" title="Contact us" class="title">Contact us</a>
                         </li>											
                     </ul>
                 </div>
@@ -245,7 +248,7 @@
 
                     <ul class="links">								
                         <li>
-                            <a href="login/index.php" title="Login / Register">Login / Register</a>									
+                            <a href="/login/" title="Login / Register">Login / Register</a>									
                         </li>
                     </ul>
                 </div>
@@ -261,13 +264,16 @@
 
                     <ul class="links">
                         <li>
-                            <a href="category.html" title="Mens">Gifts</a>
+                            <a href="shop/gift/gift.php" title="Gifts">Gifts</a>
                         </li>
                         <li>
-                            <a href="category.html" title="Womens">Flower</a>
+                            <a href="shop/flower/flower.php" title="Flower">Flower</a>
                         </li>
 						<li>
-                            <a href="category.html" title="Womens">Cakes</a>
+                            <a href="shop/cakes/cakes.php" title="Cakes">Cakes</a>
+                        </li>
+						<li>
+                            <a href="shop/bags/bags.php" title="Cakes">Bags</a>
                         </li>
                     </ul>
                 </div>
@@ -277,20 +283,17 @@
             </div>
 
             <div class="span4">
-                <h6>From the blog</h6>
+                <h6>Youtube Gallery</h6>
 
                 <ul class="list-chevron links">
                     <li>
-                        <a href="blog-post.html">Article with video</a>
-                        <small>05/01/2013</small>
+                        <a href="https://www.youtube.com/watch?v=yFZDltqVLwE" target="blank">Official Teaser</a>
+                        <small>27/02/2014</small>
                     </li>
+					
                     <li>
-                        <a href="blog-post.html">Article with images</a>
-                        <small>03/14/2013</small>
-                    </li>
-                    <li>
-                        <a href="blog-post.html">Article with style!</a>
-                        <small>08/31/2013</small>
+                        <a href="http://youtu.be/MO6OcXyhObM" target="blank">Official Promotional Video</a>
+                        <small>01/03/2014</small>
                     </li>
                 </ul>
             </div>
@@ -306,51 +309,31 @@
                     <ul class="social-icons">
 
                         <li>
-                            <a class="twitter" href="#" title="Twitter">Twitter</a>								
+                            <a class="twitter" href="https://twitter.com/pikachoo_in" title="Twitter" target="blank">Twitter</a>								
                         </li>
 
                         <li>
-                            <a class="facebook" href="#" title="Facebook">Facebook</a>								
+                            <a class="facebook" href="https://www.facebook.com/pikachoogiftstore" title="Facebook" target="blank">Facebook</a>								
                         </li>
 
                         <li>
-                            <a class="pinterest" href="#" title="Pinterest">Pinterest</a>								
+                            <a class="pinterest" href="http://www.pinterest.com/pikachooin/" title="Pinterest" target="blank">Pinterest</a>								
                         </li>
 
                         <li>
-                            <a class="youtube" href="#" title="YouTube">YouTube</a>								
+                            <a class="youtube" href="http://goo.gl/c8mZQ3" title="YouTube" target="blank">YouTube</a>								
+                        </li>
+						
+						<li>
+                            <a class="vimeo" href="https://vimeo.com/user25537878" title="Vimeo" target="blank">Vimeo</a>								
                         </li>
 
                         <li>
-                            <a class="vimeo" href="#" title="Vimeo">Vimeo</a>								
+                            <a class="googleplus" href="https://plus.google.com/u/0/100947361654640107748" title="Google+" target="blank">Google+</a>								
                         </li>
 
                         <li>
-                            <a class="flickr" href="#" title="Flickr">Flickr</a>								
-                        </li>
-
-                        <li>
-                            <a class="googleplus" href="#" title="Google+">Google+</a>								
-                        </li>
-
-                        <li>
-                            <a class="dribbble" href="#" title="Dribbble">Dribbble</a>								
-                        </li>
-
-                        <li>
-                            <a class="tumblr" href="#" title="Tumblr">Tumblr</a>								
-                        </li>
-
-                        <li>
-                            <a class="digg" href="#" title="Digg">Digg</a>								
-                        </li>
-
-                        <li>
-                            <a class="linkedin" href="#" title="LinkedIn">LinkedIn</a>								
-                        </li>
-
-                        <li>
-                            <a class="instagram" href="#" title="Instagram">Instagram</a>								
+                            <a class="linkedin" href="http://www.linkedin.com/pub/pikachoo-pikachoo/91/845/123" title="LinkedIn" target="blank">LinkedIn</a>								
                         </li>
 
                     </ul>
@@ -364,26 +347,21 @@
     </div>
 </div>
 
-					
-					
-					
-					
-			<!--credits starts here-->
-				
-			<div class="credits">
+		
+		<!--Credits starts here-->	
+		<div class="credits">
 			<div class="container_footer">
 				<div class="row">
 					<div class="span8">
-						<p>&copy; 2014 <a href="http://themeforest.net/item/la-boutique-responsive-ecommerce-template/5573130?ref=Tfingi" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
+						<p>&copy; 2014 <a href="#" title="Pikachoo">Pikachoo</a> &middot; <a href="#" title="Terms &amp; Conditions">Terms &amp; Conditions</a> &middot; <a href="#" title="Privacy policy">Privacy policy</a> &middot; All Rights Reserved. </p>
 					</div>
 					<div class="span4 text-right hidden-phone">
-						<p><a href="http://themeforest.net/item/la-boutique-responsive-ecommerce-template/5573130?ref=Tfingi" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
+						<p><a href="#" title="Responsive eCommerce template">Presented by Samip Jain &amp; Kaushal Bajaj</a></p>
 					</div>	
 				</div>
 			</div>
 		</div>
-		
-		<script>
+	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -393,10 +371,9 @@
   ga('send', 'pageview');
 
 </script>
-
-</body>
+		
+    </body>
 </html>
-
 <?php
-	ob_flush();
+ob_flush();
 ?>

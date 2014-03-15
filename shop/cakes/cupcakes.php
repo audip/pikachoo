@@ -55,7 +55,7 @@ Testers.">
 				  <a href="/shop/index.php">Shop</a>
 				  <a href="/contact/index.php">Contact Us</a>
 				  
-				  <?php
+				   <?php
 					if(!isset($_SESSION['s_var']))
 					{
 						echo '<span class="right">
@@ -167,12 +167,12 @@ Testers.">
 		</div>
 		</nav>
 		
-	<table align="center">
+	<!--<table align="center">
 			<tr><td width="400">
 				<img src="/shop/1.jpg" name="slide" height="400" alt="dominos" style="border-bottom:5px solid #2e4add">
 				<script language="javascript" src="/shop/slide.js"></script></td></tr>
 		</table>
-		
+		!-->
 		
 		
 		<div class="span3">
