@@ -1,0 +1,68 @@
+body
+{
+	background: #f9f9f9 url(../images/bg.jpg);
+}
+.button:hover
+{
+	border:groove;
+	
+	background-color:#0099FF;
+	color:#EEEEEE;
+}
+p
+{
+	font-size:16px;
+	text-transform:uppercase;
+}
+a
+{
+	color:#33CC00;
+	font-size:24px;
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+	text-transform:uppercase;
+}
+table
+{
+	border:2px solid;
+	border-radius:25px;
+	height:auto;
+	
+}
+table a
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	font-style:normal;	
+}
+table a img:hover
+{
+	background:none;
+}
+
+table a:hover
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	font-style:normal;
+	text-transform:uppercase;
+	width:auto;
+}
+#main a
+{
+	color:#FFF;
+	background-color:#FF9933;
+	width:9em;
+	padding:.2em .8em;
+	text-decoration:none;
+}
+#main a:hover
+{
+	background-color:#FFFF33;
+	color:#669900;
+}
