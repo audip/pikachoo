@@ -32,27 +32,68 @@ require "../samkush.php";
 	  		font-size: 18px;
   		}
   		input[type="submit"]:hover{
-	  		border: 2px solid white;
+	  		border : 2px solid white;
 	  		background-color: #2980b9;
 	  		color: white; 
-	  		-webkit-transition: border 4s ease-out;
+	  		-webkit-transition: border 0.4s ease-out;
+	  		-webkit-transition: background-color 0.4s ease-out;
   		}
-  		table{
+  		#header{
 	  		padding: 10px 10px;
-	  		background-color: white;
+	  		background-color: #eff6fa;
 	  		color: #526163;
 	  		border-color: #dddddd;
-
+	  		width:80%;
   		}
-  		table:hover{
-	  		background-color: #eff6fa;
+  		td {
+	  		border-radius: 2px 2px 2px 2px;
   		}
-  		.bold{
-	  		font-weight: bold;
-	  		padding: 5px 5px;
-	  		border-bottom-right-radius: 20px;
-	  		border-top-right-radius: 20px;
+  		#current {
+	  		color: white;
+	  		background-color: #3498db;
   		}
+  		#current:hover{
+  			background-color: #1276b9;
+	  		-webkit-transition: background-color 0.5s ease-in;
+  		}
+  		.navs {
+	  		background-color: #f2f2f2;
+	  		border: 1px solid #c9c9c9
+  		}
+  		.navs:hover {
+	  		background-color: #f1c40f;
+	  		border: 1px solid #d35400;
+  		}
+  		.navs-current {
+	  		background-color: #3498db;
+	  		border: 1px solid #3498db;
+	  		color: white;
+  		}
+  		.forward {
+	  		width: 0; 
+	  		height: 0; 
+	  		border-top: 10px solid transparent;
+	  		border-bottom: 10px solid transparent;
+	  		border-left: 10px solid green;		
+	}
+	#finalbill {
+		background-color: white;
+		color: black;
+		border: 2px solid black;
+		width: 40%;
+	}
+	nav {
+		background-color:#005387;
+		height: 50px;
+		width:100%;
+		margin-bottom: 20px;
+		border-bottom: 1px solid black;
+		margin-left: -0.80%;
+		padding-right:1.6%;
+	}
+	a {
+		color:black;
+	}
   </style>
 
 	<script>
@@ -77,20 +118,26 @@ else if($_SESSION['s_var']=='1')
 		$str="select * from samkush_login where userid='$uid'";
 		$result=mysqli_query($con,$str);
 		$row=mysqli_fetch_array($result);
+		echo '<nav id="nav">
+		<table>
+		<tr><img src="img/cart_logo.jpg" style="height:50px;margin-left:50px;" alt="Pikachoo-Payment"></tr>
+		</table>
+		</nav>
+		';
 		echo '<center>
-						<img src="img/cart_logo.jpg" alt="Pikachoo-Payment"><br><br><br>
-						<table border="0" width="500">
+						<br><br><br>
+						<table id="header" border="0">
 							<tr align="center">
-								<td >Shipping Info</td>
-								<td>|&raquo;|</td>
-								<td>Shipping Address</td>
-								<td>|&raquo;|</td>
-								<td >Order Summary</td>
-								<td>|&raquo;|</td>
-								<td bgcolor="#3498db" class="bold">Payment</td>
+								<td class="navs" id="first-td"><a href="#">Shipping Info</a></td>
+								<td><div class="forward"></div></td>
+								<td class="navs"><a href="#">Shipping Address</a></td>
+								<td><div class="forward"></div></td>
+								<td class="navs"><a href="#">Order Summary</a></td>
+								<td><div class="forward"></div></td>
+								<td class="navs-current" id="last-td"><a href="#">Payment</a></td>
 							</tr>
 						</table><br><br><br>';
-
+		echo '<div style="background-color:white;width:80%;padding-bottom: 50px;color:black;">';
 		$str="select * from samkush_login where userid='$uid'";
 		$result=mysqli_query($con,$str);
 		$row=mysqli_fetch_array($result);
@@ -126,11 +173,13 @@ else if($_SESSION['s_var']=='1')
 		{
 			$total=$total+$row[2];
 		}
-		echo '<p><font size="5">YOUR FINAL BILL</p></font><br><br>';
+		echo '<div id="finalbill">';
+		echo '<h2>YOUR FINAL BILL</h2></tr>';
 		echo '<p><font size="5">TOTAL AMOUNT: <b>&#8377 '.$total.'</b></p></font><br><br>';
-		echo '<p><font size="5">Shipping Method: <b>Cash on Delivery (COD)</b></p></font><br><br>';
+		echo '<p><font size="5">Shipping Method: <i>Cash on Delivery (COD)</i></p></font><br><br>';
+		echo '</div>';
 		echo '<form action="payment5.php" method="POST">
-					<p>ESTIMATED DELIVERY DATE: <input type="text" name="c3" id="datepicker" placeholder="MM/DD/YEAR"> (<i>We will deliver within 3-4 days</i>) </p>';
+					<p>ESTIMATED DELIVERY DATE: <input type="date" name="c3" id="datepicker" placeholder="MM/DD/YEAR"> (<i>We will deliver within 3-4 days</i>) </p>';
 		require('solvemedialib.php');
 		echo solvemedia_get_html("DS2CB83-GNP4qGfRF7vWm0nFAH9vJ1aa");
 		echo '<input type="submit" value="Place Order" name="placeorder"></form>';
@@ -150,6 +199,7 @@ else
   ga('send', 'pageview');
 
 </script>
+</div>
 </body>
 </html>
 
