@@ -120,12 +120,12 @@ else if($_SESSION['s_var']=='1')
 		$row=mysqli_fetch_array($result);
 		echo '<nav id="nav">
 		<table>
-		<tr><img src="img/cart_logo.jpg" style="height:50px;margin-left:50px;" alt="Pikachoo-Payment"></tr>
+		<tr></tr>
 		</table>
 		</nav>
 		';
 		echo '<center>
-						<br><br><br>
+						<img src="img/cart_logo.jpg" alt="Pikachoo-Payment"><br><br><br>
 						<table id="header" border="0">
 							<tr align="center">
 								<td class="navs" id="first-td"><a href="#">Shipping Info</a></td>
@@ -137,7 +137,6 @@ else if($_SESSION['s_var']=='1')
 								<td class="navs-current" id="last-td"><a href="#">Payment</a></td>
 							</tr>
 						</table><br><br><br>';
-		echo '<div style="background-color:white;width:80%;padding-bottom: 50px;color:black;">';
 		$str="select * from samkush_login where userid='$uid'";
 		$result=mysqli_query($con,$str);
 		$row=mysqli_fetch_array($result);
@@ -199,7 +198,6 @@ else
   ga('send', 'pageview');
 
 </script>
-</div>
 </body>
 </html>
 
